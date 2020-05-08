@@ -1,24 +1,8 @@
-# README
+## DOOMTYPER
+this repository serves as the backend API feeding to the DOOMTYPER application. 
+In order to start this backend on your computer, please run the following command
+```
+rails s -p 9000
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For now this backend seeds data manually, and outputs json objects that represent lists of words per topic that feed the typing application
